@@ -1,0 +1,16 @@
+@font-face {
+  font-family: titleFont;
+  src: url(fonts/VisbyRoundCF-DemiBold.otf);
+}
+
+
+body {
+  background-color: #fef8df;
+}
+
+h1 {
+  
+  font-family: titleFont;
+  padding-left: 10px;
+  font-size: 25px;
+}
