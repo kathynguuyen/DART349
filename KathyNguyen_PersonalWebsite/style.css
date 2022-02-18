@@ -5,6 +5,7 @@
 
 
 body {
+  font-family: titleFont;
   background-color: #fef8df;
 }
 
@@ -32,4 +33,31 @@ nav a:link {
 nav a:hover {
   color:black;
   text-decoration: underline;
+}
+
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 10px 20px;
+}
+
+
+.intro {
+  text-align: center;
+}
+
+
+.about {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
