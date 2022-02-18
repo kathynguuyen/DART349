@@ -9,8 +9,27 @@ body {
 }
 
 h1 {
-  
   font-family: titleFont;
   padding-left: 10px;
   font-size: 25px;
+}
+
+header {
+  font-family: titleFont;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0   2.5em;
+  border-bottom: solid 1px #333;
+  margin: 0 2.5% 1.5em;
+  height: 5vh;
+}
+
+nav a:link {
+  padding:0  .5em;
+  color:#000;
+  text-decoration: none;
+}
+nav a:hover {
+  color:black;
+  text-decoration: underline;
 }
