@@ -1,0 +1,121 @@
+@font-face {
+  src : url(fonts/Poppins-Bold.ttf);
+  font-family: Poppins;
+}
+
+@font-face {
+  src : url(fonts/Poppins-Medium.ttf);
+  font-family: PoppinsMedium;
+}
+
+@font-face {
+  src : url(fonts/Poppins-Light.ttf);
+  font-family: PoppinsLight;
+}
+
+@font-face {
+  src : url(fonts/CocoMilk-2OvpX.otf);
+  font-family: CocoMilk;
+}
+
+
+h1 {
+  font-family: Poppins;
+  font-size: 50px;
+  color: #D0B8AC;
+  position: absolute;
+  top: 2px;
+  right: 50px;
+}
+
+
+p.reading_title {
+  color: black;
+  text-align:left;
+  font-size: 50px;
+  font-family: CocoMilk;
+  padding-left: 50px;
+
+}
+
+p.text {
+  color:black;
+  text-align: justify;
+  font-family: PoppinsLight;
+  text-align: center;
+  line-height: 3;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+
+
+p.websitetitle {
+  color: black;
+  font-size: 50px;
+  font-family: CocoMilk;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style-type:circle;
+}
+
+ol {
+  list-style-type: lower-roman;
+  border: 2px solid red;
+ border-radius: 8px;
+}
+
+em {
+  font-weight: bold;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 50px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li.navbar {
+  float: left;
+  font-family: PoppinsMedium;
+}
+
+li a {
+  color: black;
+  padding: 10px;
+}
+
+ol.workcited {
+  color:black;
+  text-align: justify;
+  font-family: PoppinsLight;
+  text-align: center;
+  line-height: 3;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-style: none;
+}
+
+
+img.display {
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+img.mobile {
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 10%;
+ height: 10%;
+}
